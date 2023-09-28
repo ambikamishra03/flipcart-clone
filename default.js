@@ -8,7 +8,7 @@ try {
     await Dress.insertMany(dresses);
     console.log("data successfully imported");
 } catch (error) {
-    console.log("error while inserting default data",error.message);
+    console.log("error while inserting defaultdata",error.message);
 }
 }
 
