@@ -31,14 +31,14 @@ const Home = () => {
       <Midsection/>
       <ProdSlide products={products} title="Discount for you" timer={false}/>
       <ProdSlide products={products} title="Suggested items" timer={false}/>
-      <ProdSlide products={products} title="Top selections" timer={false}/>
+      {/* <ProdSlide products={products} title="Top selections" timer={false}/>
       <ProdSlide products={products} title="Trending Offers" timer={false}/>
       <ProdSlide products={products} title="Home essentials" timer={false}/>
       <ProdSlide products={products} title="Top pics in men's wear" timer={false}/>
       <ProdSlide products={products} title="Home Appliances" timer={false}/>
       <ProdSlide products={products} title="Recent views" timer={false}/>
 
-
+ */}
       </Component>
       
     </>
