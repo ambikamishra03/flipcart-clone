@@ -36,7 +36,6 @@ const Home = () => {
       <ProdSlide products={products} title="Home essentials" timer={false}/>
       <ProdSlide products={products} title="Top pics in men's wear" timer={false}/>
       <ProdSlide products={products} title="Home Appliances" timer={false}/>
-      <ProdSlide products={products} title="Recent views" timer={false}/>
 
  */}
       </Component>
