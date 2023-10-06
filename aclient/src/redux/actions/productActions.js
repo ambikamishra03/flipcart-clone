@@ -2,7 +2,7 @@
 import axios from "axios";
 import * as actionTypes from  '../constants/productConstant';
   
-const URL= "" ;
+const URL= "https://flipcart-clone-mern.onrender.com" ;
 
 
 // getProducts = () => normal function  | async () => middleware

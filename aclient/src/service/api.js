@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL= "";
+const URL= "https://flipcart-clone-mern.onrender.com/";
 export const authenticateSignup = async (data) =>{
     try {
         return await axios.post(`${URL}/signup`,data)
