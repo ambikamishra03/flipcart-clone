@@ -1,32 +1,23 @@
 {
-  "name": "server",
+  "name": "flipcart-clone",
   "version": "1.0.0",
-  "description": "flipcart clone",
-  "main": "server.js",
-  "type": "module",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "frontend": "npm start --prefix frontend",
-    "frontendinstall": "npm install --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
-    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ambika Mishra",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
-    "concurrently": "^8.2.1",
-    "cors": "^2.8.5",
+    "concurrently": "^8.2.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "formidable": "^3.5.1",
     "https": "^1.0.0",
-    "mongodb": "^5.7.0",
-    "mongoose": "^7.4.1",
-    "node": "^20.5.1",
-    "nodemon": "^3.0.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
     "path": "^0.12.7",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.1"
   }
 }
